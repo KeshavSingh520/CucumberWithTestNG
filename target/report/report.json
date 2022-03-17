@@ -1,0 +1,346 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login page",
+            "match": {
+              "location": "parallel.LoginStepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 329000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"keshavsingh520@gmail.com\" and \"Sep@2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"keshavsingh520@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Sep@2020\"",
+                  "offset": 43
+                }
+              ],
+              "location": "parallel.LoginStepDefinition.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "parallel.LoginStepDefinition.click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-17T15:37:15.921Z",
+        "before": [
+          {
+            "result": {
+              "duration": 25383000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search Facebook",
+        "description": "",
+        "id": "search-functionality;search-facebook",
+        "after": [
+          {
+            "result": {
+              "duration": 36643000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25551000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on home page",
+            "match": {
+              "location": "parallel.LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 501000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User search in search facebook input",
+            "match": {
+              "location": "parallel.HomePageDefinition.user_search_in_search_facebook_input()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/parallel/HomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login page",
+            "match": {
+              "location": "parallel.LoginStepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 282000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"keshavsingh520@gmail.com\" and \"Sep@2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"keshavsingh520@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Sep@2020\"",
+                  "offset": 43
+                }
+              ],
+              "location": "parallel.LoginStepDefinition.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "parallel.LoginStepDefinition.click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-17T15:37:15.921Z",
+        "before": [
+          {
+            "result": {
+              "duration": 86002000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Login Test",
+        "description": "",
+        "id": "login-feature;login-test",
+        "after": [
+          {
+            "result": {
+              "duration": 1309000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14036000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on home page",
+            "match": {
+              "location": "parallel.LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login page",
+            "match": {
+              "location": "parallel.LoginStepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"keshavsingh520@gmail.com\" and \"Sep@2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"keshavsingh520@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Sep@2020\"",
+                  "offset": 43
+                }
+              ],
+              "location": "parallel.LoginStepDefinition.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "parallel.LoginStepDefinition.click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-17T15:37:15.921Z",
+        "before": [
+          {
+            "result": {
+              "duration": 59261000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Home Page Verification",
+        "description": "",
+        "id": "login-feature;home-page-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 8705000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19425000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on home page",
+            "match": {
+              "location": "parallel.LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/parallel/Login.feature",
+    "tags": []
+  }
+]
