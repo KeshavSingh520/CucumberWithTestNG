@@ -31,9 +31,9 @@ public class LoginPage {
     }
 
 
-    public void checkUserIsOnHomePage() {
+    public void checkUserIsOnHomePage(String expectedTitle) {
         System.out.println("HomePage title : "+driver.getTitle());
-        Assert.assertEquals(driver.getTitle(),"Facebook");
+        Assert.assertEquals(driver.getTitle(),expectedTitle);
     }
 
     public void userIsOnLoginPage() {

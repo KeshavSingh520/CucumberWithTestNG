@@ -14,9 +14,14 @@ public class HomePage {
 
     String xpathSearchFacebook = "//input[@placeholder='Search Facebook']";
     String xpathSearchResults = "//ul[contains(@aria-label,'suggested searches')]";
+    String xpathAccount = "//div[@aria-label='Account']";
 
     public void searchFacebook(){
         driver.findElement(By.xpath(xpathSearchFacebook)).sendKeys("Cucumber");
         Assert.assertTrue(driver.findElements(By.xpath(xpathSearchResults)).size()>0);
+    }
+
+    public void clickOnAccount(){
+        driver.findElement(By.xpath(xpathAccount)).click();
     }
 }
